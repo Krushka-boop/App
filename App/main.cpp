@@ -6,9 +6,9 @@ using namespace std;
 
 int main()
 {
-	double a = 5;
+	double a = 3;
 	double b = 4;
-	double c = 7;
+	double c = 2;
 	cout << PloshCircle(a) << endl;
 	cout << PloshKvadrat(b) << endl;
 	cout << PloshTrangle(a, c) << endl;
