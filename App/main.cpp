@@ -12,10 +12,12 @@ int main()
 
 	cout << PloshCircle(a) << endl;
 	cout << PloshKvadrat(c) << endl;
-	cout << PloshTrangle(a, b) << endl;
+	cout << PloshTrangle(b, b) << endl;
 	cout << "New branch\n";
+	cout << "I'm a Fray\n";
+
 	cout << PerimetrCircle(b) << endl;
 	cout << PerimetrKvadrat(a) << endl;
-	cout << PerimetrTrangle(b, c, a) << endl;
+	cout << PerimetrTrangle(b, b, a) << endl;
 
 }
