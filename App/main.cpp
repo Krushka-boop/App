@@ -12,11 +12,15 @@ int main()
 
 	cout << PloshCircle(a) << endl;
 	cout << PloshKvadrat(c) << endl;
-	cout << PloshTrangle(a, b) << endl;
-	cout << "Hello, i'm a Hel\n";
-	cout << "This is a not a Fray\n";
+ HEAD
+
+	cout << PloshTrangle(b, b) << endl;
+	cout << "New branch\n";
+	cout << "I'm a Fray\n";
+
+ Fray
 	cout << PerimetrCircle(b) << endl;
 	cout << PerimetrKvadrat(a) << endl;
-	cout << PerimetrTrangle(b, c, a) << endl;
+	cout << PerimetrTrangle(b, b, a) << endl;
 
 }
