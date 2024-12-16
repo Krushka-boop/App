@@ -6,13 +6,13 @@ using namespace std;
 
 int main()
 {
-	double a = 3;
-	double b = 4;
-	double c = 2;
+	double a = 7;
+	double b = 3;
+	double c = 9;
 	cout << PloshCircle(a) << endl;
-	cout << PloshKvadrat(b) << endl;
+	cout << PloshKvadrat(c) << endl;
 	cout << PloshTrangle(a, c) << endl;
-	cout << PerimetrCircle(c) << endl;
-	cout << PerimetrKvadrat(b) << endl;
+	cout << PerimetrCircle(b) << endl;
+	cout << PerimetrKvadrat(a) << endl;
 	cout << PerimetrTrangle(a, b, c) << endl;
 }
