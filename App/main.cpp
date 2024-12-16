@@ -10,11 +10,13 @@ int main()
 	double b = 2;
 	double c = 9;
 
-	cout << PerimetrKvadrat(a) << endl;
-	cout << PerimetrTrangle(b, c, a) << endl;
-
 	cout << PloshCircle(a) << endl;
 	cout << PloshKvadrat(c) << endl;
 	cout << PloshTrangle(a, b) << endl;
+	cout << "Hello, i'm a new branche\n";
+
 	cout << PerimetrCircle(b) << endl;
+	cout << PerimetrKvadrat(a) << endl;
+	cout << PerimetrTrangle(b, c, a) << endl;
+
 }
